@@ -4,3 +4,25 @@
     box-sizing: border-box;
     font-family: Nunito, sans-serif, serif;
 }
+
+.main{
+    height: 100vh;
+}
+
+.header{
+    height: 100px;
+    color: #fff;
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    height: 50px;
+    color: #fff;
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+}
+
+
