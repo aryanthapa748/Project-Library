@@ -7,6 +7,8 @@
 
 .main{
     height: 100vh;
+    display: grid;
+    grid-template-rows: 3fr 10fr 1fr;
 }
 
 .header{
@@ -21,8 +23,14 @@ footer{
     height: 50px;
     color: #fff;
     background-color: burlywood;
-    padding: 10px;
-    text-align: center;
+    padding: 15px;
+    text-align: center; 
+}
+
+.dialogBox{
+    align-self: center;
+    justify-self: center;
+    padding: 15px;
 }
 
 
