@@ -9,6 +9,7 @@
     height: 100vh;
     display: grid;
     grid-template-rows: 3fr 10fr 1fr;
+    overflow: hidden;
 }
 
 .header{
@@ -20,17 +21,16 @@
 }
 
 footer{
-    height: 50px;
     color: #fff;
     background-color: rgb(231, 182, 117);
-    padding: 15px;
+    padding: 10px;
     text-align: center; 
 }
 
 .dialogBox{
     align-self: center;
     justify-self: center;
-    padding: 15px;
+    padding: 25px;
 }
 
 
