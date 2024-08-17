@@ -30,7 +30,25 @@ footer{
 .dialogBox{
     align-self: center;
     justify-self: center;
-    padding: 25px;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.dialogBox > p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.dialogBox form div{
+    display: grid;
+    margin: 15px;
+}
+
+.dialogBox form input[type="submit"]{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 70px;
 }
 
 
